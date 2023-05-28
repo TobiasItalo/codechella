@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/assets/logo-codechella.svg" alt="Logo CodeChella" width="25%">
+  <img src="src/assets/logo-codechella.svg" alt="Logo CodeChella" width="25%">
   <h1>CodeChella</h1>
   <img src="https://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge" alt="Badge_Status">
 </div>
