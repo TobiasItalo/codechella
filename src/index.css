@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+:root {
+  --title-font: 'Calistoga', cursive;
+  --text-font: 'Raleway', sans-serif;
+
+  --summer-gradient: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+  --mustard: #DF9010;
+  --dark-blue: #2E7BA2;
+  --light-blue: #C8DEEF;
+  --light-yellow: #FBF0DD;
+  --yellow: #FACF9D;
+
+  --boreal-gradient: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+  --boreal-purple: #4650BD;
+  --dark-green: #008364;
+  --strong-blue: #304968;
+  --green: #36C1A0;
+  --lilac: #B6BCFF;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,3 +63,4 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
