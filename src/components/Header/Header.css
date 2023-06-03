@@ -2,7 +2,6 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 32px;
   justify-content: space-between;
   padding: 32px 24px;
   height: 128px;
