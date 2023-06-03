@@ -2,13 +2,11 @@ import './Header.css'
 import logo from '../../assets/logo-codechella.svg'
 import HamburgerMenu from '../HamburgerMenu'
 import ToggleTheme from '../ToggleTheme'
+import { useSettingsContext } from '../../contexts/Settings'
 
-interface HeaderProps {
-  theme: string
-  device: string
-}
+export default function Header(): JSX.Element {
+  const { theme } = useSettingsContext()
 
-export default function Header({ theme, device }: HeaderProps): JSX.Element {
   return (
     <header className={`header header-${theme}`}>
       <ToggleTheme />
