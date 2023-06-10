@@ -11,7 +11,7 @@ export default function Banner({ page, text }: BannerProps): JSX.Element {
 
   return (
     <div className="banner-container" style={{ backgroundImage: `url("src/assets/${theme}/images/${device}/banner-${page}.png")` }}>
-      <p className="banner-container__text">{text}</p>
+      <p className={`banner-container__text banner-container__text-${theme}`}>{text}</p>
     </div>
   )
 }
