@@ -4,6 +4,8 @@
 :root {
   --title-font: 'Calistoga', cursive;
   --text-font: 'Raleway', sans-serif;
+  --white: #FFFFFF;
+  --gray: #444444;
 
   --summer-gradient: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
   --mustard: #DF9010;

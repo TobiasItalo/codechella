@@ -11,7 +11,6 @@
 }
 
 .banner-container__text {
-  position: absolute;
   text-align: center;
   font-family: var(--title-font);
   font-weight: 400;
@@ -27,4 +26,21 @@
 
 .banner-container__text-boreal {
   color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .banner-container {
+    height: 384px;
+  }
+  
+  .banner-container__text {
+    font-size: 64px;
+    line-height: 83px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .banner-container {
+    height: 407px;
+  }
 }
