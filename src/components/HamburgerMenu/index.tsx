@@ -19,13 +19,13 @@ export default function HamburgerMenu(): JSX.Element {
         <div className="line"></div>
       </div>
       <ul className={`menu-items menu-items-${theme}`}>
-        <li><Link className="menu-items__link" to="/xp">A Experiência</Link></li>
+        <Link className="menu-items__link" to="/xp"><li onClick={toggleMenu}>A Experiência</li></Link>
         <hr className='menu-items__hr'/>
-        <li><Link className="menu-items__link" to="/map">Mapa de Setores</Link></li>
+        <Link className="menu-items__link" to="/map"><li onClick={toggleMenu}>Mapa de Setores</li></Link>
         <hr className='menu-items__hr'/>
-        <li><Link className="menu-items__link" to="/faq">Informações</Link></li>
+        <Link className="menu-items__link" to="/faq"><li onClick={toggleMenu}>Informações</li></Link>
         <hr className='menu-items__hr'/>
-        <li><Link className="menu-items__link" to="/ticket">Ingresso</Link></li>
+        <Link className="menu-items__link" to="/ticket"><li onClick={toggleMenu}>Ingresso</li></Link>
       </ul>
     </div>
   )
